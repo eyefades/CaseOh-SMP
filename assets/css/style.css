@@ -1,8 +1,89 @@
-html body {
-    background-color: black !important;
-    color: white !important;
+/* Define CSS variables for easy theme management */
+:root {
+    --main-bg-color: black;
+    --text-color: white;
+    --link-color: #0096FF; /* Bright blue */
+    --hover-color: #FFD700; /* Gold */
+    --font-main: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-html body a, html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
-    color: white !important;
+/* General body styles */
+body {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styles */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3, h4, h5, h6 { font-size: 1.2em; }
+
+/* Paragraph styling */
+p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Link styling */
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    color: var(--hover-color);
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 { font-size: 1.5em; }
+    h2 { font-size: 1.2em; }
+}
+
+/* Custom button styling */
+.button {
+    background-color: var(--link-color);
+    border: none;
+    color: var(--text-color);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0057B7; /* Darker blue */
+}
+
+/* Container for additional depth and structure */
+.container {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: #333; /* Slightly lighter black for containers */
+    margin-top: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #222;
+    overflow: hidden;
+    border-bottom: 2px solid var(--link-color);
 }
