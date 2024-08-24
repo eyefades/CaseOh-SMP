@@ -1,238 +1,289 @@
-<h2>General Commands</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minecraft Server Commands - CaseOh SMP">
+    <title>Minecraft Server Commands - CaseOh SMP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
+            padding: 20px;
+        }
+        h1 {
+            color: #343a40;
+        }
+        h2, h3 {
+            color: #495057;
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Minecraft Server Commands</h1>
 
-<h3>skipnight</h3>
-<p><strong>Description:</strong> Cast a vote to skip the night</p>
-<p><strong>Alias:</strong> sn</p>
-<p><strong>Usage:</strong> <code>/skipnight &lt;yes/no&gt;</code></p>
+        <h2>General Commands</h2>
 
-<h3>vote</h3>
-<p><strong>Description:</strong> Opens the voting GUI</p>
-<p><strong>Usage:</strong> <code>/vote</code></p>
+        <h3>skipnight</h3>
+        <p><strong>Description:</strong> Cast a vote to skip the night</p>
+        <p><strong>Alias:</strong> sn</p>
+        <p><strong>Usage:</strong> <code>/skipnight &lt;yes/no&gt;</code></p>
 
-<h3>rules</h3>
-<p><strong>Description:</strong> Displays the server rules</p>
-<p><strong>Usage:</strong> <code>/rules</code></p>
+        <h3>vote</h3>
+        <p><strong>Description:</strong> Opens the voting GUI</p>
+        <p><strong>Usage:</strong> <code>/vote</code></p>
 
-<h3>help</h3>
-<p><strong>Description:</strong> Opens the help GUI</p>
-<p><strong>Usage:</strong> <code>/help</code></p>
+        <h3>rules</h3>
+        <p><strong>Description:</strong> Displays the server rules</p>
+        <p><strong>Usage:</strong> <code>/rules</code></p>
 
-<h3>recipe</h3>
-<p><strong>Description:</strong> Show the crafting recipe for an item</p>
-<p><strong>Usage:</strong> <code>/recipe &lt;item_name&gt;</code></p>
+        <h3>help</h3>
+        <p><strong>Description:</strong> Opens the help GUI</p>
+        <p><strong>Usage:</strong> <code>/help</code></p>
 
-<h3>mail</h3>
-<p><strong>Description:</strong> Manage your in-game mail</p>
-<p><strong>Usage:</strong></p>
-<ul>
-    <li><code>/mail clear</code> - Clear all mail</li>
-    <li><code>/mail read</code> - Read your mail</li>
-    <li><code>/mail send</code> - Send mail to a player</li>
-</ul>
+        <h3>recipe</h3>
+        <p><strong>Description:</strong> Show the crafting recipe for an item</p>
+        <p><strong>Usage:</strong> <code>/recipe &lt;item_name&gt;</code></p>
 
-<h2>Teleportation Commands</h2>
+        <h3>mail</h3>
+        <p><strong>Description:</strong> Manage your in-game mail</p>
+        <p><strong>Usage:</strong></p>
+        <ul>
+            <li><code>/mail clear</code> - Clear all mail</li>
+            <li><code>/mail read</code> - Read your mail</li>
+            <li><code>/mail send</code> - Send mail to a player</li>
+        </ul>
 
-<h3>spawn</h3>
-<p><strong>Description:</strong> Teleport to the spawn point of the server</p>
-<p><strong>Usage:</strong> <code>/spawn</code></p>
+        <h2>Teleportation Commands</h2>
 
-<h3>rtp</h3>
-<p><strong>Description:</strong> Open the random teleport GUI to choose your destination world</p>
-<p><strong>Usage:</strong> <code>/rtp</code></p>
+        <h3>spawn</h3>
+        <p><strong>Description:</strong> Teleport to the spawn point of the server</p>
+        <p><strong>Usage:</strong> <code>/spawn</code></p>
 
-<h3>warp</h3>
-<p><strong>Description:</strong> Teleport to a specified warp location</p>
-<p><strong>Usage:</strong> <code>/warp &lt;warp_name&gt;</code></p>
+        <h3>rtp</h3>
+        <p><strong>Description:</strong> Open the random teleport GUI to choose your destination world</p>
+        <p><strong>Usage:</strong> <code>/rtp</code></p>
 
-<h3>crates</h3>
-<p><strong>Description:</strong> Teleport to the crates area</p>
-<p><strong>Usage:</strong> <code>/crates</code></p>
+        <h3>warp</h3>
+        <p><strong>Description:</strong> Teleport to a specified warp location</p>
+        <p><strong>Usage:</strong> <code>/warp &lt;warp_name&gt;</code></p>
 
-<h3>marketplace</h3>
-<p><strong>Description:</strong> Open the marketplace GUI</p>
-<p><strong>Alias:</strong> mp</p>
-<p><strong>Usage:</strong> <code>/marketplace</code></p>
+        <h3>crates</h3>
+        <p><strong>Description:</strong> Teleport to the crates area</p>
+        <p><strong>Usage:</strong> <code>/crates</code></p>
 
-<h3>home</h3>
-<p><strong>Description:</strong> Teleport to a specific home</p>
-<p><strong>Usage:</strong> <code>/home &lt;home_name&gt;</code></p>
+        <h3>marketplace</h3>
+        <p><strong>Description:</strong> Open the marketplace GUI</p>
+        <p><strong>Alias:</strong> mp</p>
+        <p><strong>Usage:</strong> <code>/marketplace</code></p>
 
-<h3>sethome</h3>
-<p><strong>Description:</strong> Set a home at your current location</p>
-<p><strong>Usage:</strong> <code>/sethome &lt;home_name&gt;</code></p>
+        <h3>home</h3>
+        <p><strong>Description:</strong> Teleport to a specific home</p>
+        <p><strong>Usage:</strong> <code>/home &lt;home_name&gt;</code></p>
 
-<h3>removehome</h3>
-<p><strong>Description:</strong> Delete a specified home</p>
-<p><strong>Usage:</strong> <code>/removehome &lt;home_name&gt;</code></p>
+        <h3>sethome</h3>
+        <p><strong>Description:</strong> Set a home at your current location</p>
+        <p><strong>Usage:</strong> <code>/sethome &lt;home_name&gt;</code></p>
 
-<h3>homes</h3>
-<p><strong>Description:</strong> Open the home management GUI</p>
-<p><strong>Usage:</strong> <code>/homes</code></p>
+        <h3>removehome</h3>
+        <p><strong>Description:</strong> Delete a specified home</p>
+        <p><strong>Usage:</strong> <code>/removehome &lt;home_name&gt;</code></p>
 
-<h3>tpa</h3>
-<p><strong>Description:</strong> Send a teleport request to another player</p>
-<p><strong>Usage:</strong> <code>/tpa &lt;username&gt;</code></p>
+        <h3>homes</h3>
+        <p><strong>Description:</strong> Open the home management GUI</p>
+        <p><strong>Usage:</strong> <code>/homes</code></p>
 
-<h3>tpaccept</h3>
-<p><strong>Description:</strong> Accept a teleport request from another player</p>
-<p><strong>Usage:</strong> <code>/tpaccept &lt;username&gt;</code></p>
+        <h3>tpa</h3>
+        <p><strong>Description:</strong> Send a teleport request to another player</p>
+        <p><strong>Usage:</strong> <code>/tpa &lt;username&gt;</code></p>
 
-<h3>tpdeny</h3>
-<p><strong>Description:</strong> Deny a teleport request from another player</p>
-<p><strong>Usage:</strong> <code>/tpdeny &lt;username&gt;</code></p>
+        <h3>tpaccept</h3>
+        <p><strong>Description:</strong> Accept a teleport request from another player</p>
+        <p><strong>Usage:</strong> <code>/tpaccept &lt;username&gt;</code></p>
 
-<h3>tpacancel</h3>
-<p><strong>Description:</strong> Cancel an outgoing teleport request</p>
-<p><strong>Usage:</strong> <code>/tpacancel</code></p>
+        <h3>tpdeny</h3>
+        <p><strong>Description:</strong> Deny a teleport request from another player</p>
+        <p><strong>Usage:</strong> <code>/tpdeny &lt;username&gt;</code></p>
 
-<h2>Messaging Commands</h2>
+        <h3>tpacancel</h3>
+        <p><strong>Description:</strong> Cancel an outgoing teleport request</p>
+        <p><strong>Usage:</strong> <code>/tpacancel</code></p>
 
-<h3>msg</h3>
-<p><strong>Description:</strong> Send a private message to a player</p>
-<p><strong>Usage:</strong> <code>/msg &lt;username&gt; &lt;message&gt;</code></p>
+        <h2>Messaging Commands</h2>
 
-<h3>reply</h3>
-<p><strong>Description:</strong> Reply to the last received message</p>
-<p><strong>Alias:</strong> r</p>
-<p><strong>Usage:</strong> <code>/reply &lt;message&gt;</code></p>
+        <h3>msg</h3>
+        <p><strong>Description:</strong> Send a private message to a player</p>
+        <p><strong>Usage:</strong> <code>/msg &lt;username&gt; &lt;message&gt;</code></p>
 
-<h3>ignoreplayer</h3>
-<p><strong>Description:</strong> Ignore messages from a specific player</p>
-<p><strong>Usage:</strong> <code>/ignoreplayer &lt;player_name&gt;</code></p>
-<p><strong>Alias:</strong></p>
-<ul>
-    <li><code>/unignoreplayer &lt;player_name&gt;</code> - Stop ignoring a player</li>
-    <li><code>/ignoredplayerlist</code> - Show the list of ignored players</li>
-</ul>
+        <h3>reply</h3>
+        <p><strong>Description:</strong> Reply to the last received message</p>
+        <p><strong>Alias:</strong> r</p>
+        <p><strong>Usage:</strong> <code>/reply &lt;message&gt;</code></p>
 
-<h2>Economy Commands</h2>
+        <h3>ignoreplayer</h3>
+        <p><strong>Description:</strong> Ignore messages from a specific player</p>
+        <p><strong>Usage:</strong> <code>/ignoreplayer &lt;player_name&gt;</code></p>
+        <p><strong>Alias:</strong></p>
+        <ul>
+            <li><code>/unignoreplayer &lt;player_name&gt;</code> - Stop ignoring a player</li>
+            <li><code>/ignoredplayerlist</code> - Show the list of ignored players</li>
+        </ul>
 
-<h3>pay</h3>
-<p><strong>Description:</strong> Transfer money to another player</p>
-<p><strong>Usage:</strong> <code>/pay &lt;player_name&gt; &lt;amount&gt;</code></p>
+        <h2>Economy Commands</h2>
 
-<h3>balance</h3>
-<p><strong>Description:</strong> Display your current balance</p>
-<p><strong>Usage:</strong> <code>/balance</code></p>
+        <h3>pay</h3>
+        <p><strong>Description:</strong> Transfer money to another player</p>
+        <p><strong>Usage:</strong> <code>/pay &lt;player_name&gt; &lt;amount&gt;</code></p>
 
-<h3>ah</h3>
-<p><strong>Description:</strong> Access the AuctionHouse GUI to buy, sell, and search items</p>
-<p><strong>Usage:</strong></p>
-<ul>
-    <li><code>/ah help</code></li>
-    <li><code>/ah sell</code></li>
-    <li><code>/ah search</code></li>
-</ul>
+        <h3>balance</h3>
+        <p><strong>Description:</strong> Display your current balance</p>
+        <p><strong>Usage:</strong> <code>/balance</code></p>
 
-<h3>quickshop</h3>
-<p><strong>Description:</strong> Display QuickShop commands</p>
-<p><strong>Alias:</strong> cshop</p>
-<p><strong>Usage:</strong> <code>/quickshop</code></p>
+        <h3>ah</h3>
+        <p><strong>Description:</strong> Access the AuctionHouse GUI to buy, sell, and search items</p>
+        <p><strong>Usage:</strong></p>
+        <ul>
+            <li><code>/ah help</code></li>
+            <li><code>/ah sell</code></li>
+            <li><code>/ah search</code></li>
+        </ul>
 
-<h3>kit</h3>
-<p><strong>Description:</strong> Access the kit GUI</p>
-<p><strong>Usage:</strong> <code>/kit</code></p>
+        <h3>quickshop</h3>
+        <p><strong>Description:</strong> Display QuickShop commands</p>
+        <p><strong>Alias:</strong> cshop</p>
+        <p><strong>Usage:</strong> <code>/quickshop</code></p>
 
-<h3>rewards</h3>
-<p><strong>Description:</strong> Open the daily rewards GUI</p>
-<p><strong>Usage:</strong> <code>/rewards</code></p>
+        <h3>kit</h3>
+        <p><strong>Description:</strong> Access the kit GUI</p>
+        <p><strong>Usage:</strong> <code>/kit</code></p>
 
-<h2>Utility Commands</h2>
+        <h3>rewards</h3>
+        <p><strong>Description:</strong> Open the daily rewards GUI</p>
+        <p><strong>Usage:</strong> <code>/rewards</code></p>
 
-<h3>autopickup</h3>
-<p><strong>Description:</strong> Toggle automatic item pickup on or off</p>
-<p><strong>Usage:</strong> <code>/autopickup</code></p>
+        <h2>Utility Commands</h2>
 
-<h3>sb</h3>
-<p><strong>Description:</strong> Toggle the scoreboard display on or off</p>
-<p><strong>Usage:</strong> <code>/sb</code></p>
+        <h3>autopickup</h3>
+        <p><strong>Description:</strong> Toggle automatic item pickup on or off</p>
+        <p><strong>Usage:</strong> <code>/autopickup</code></p>
 
-<h3>veinminer</h3>
-<p><strong>Description:</strong> Configure VeinMiner settings, which allow mining of ore veins</p>
-<p><strong>Alias:</strong> vm</p>
-<p><strong>Usage:</strong></p>
-<ul>
-    <li><code>/veinminer mode</code></li>
-    <li><code>/veinminer pattern</code></li>
-    <li><code>/veinminer toggle</code></li>
-</ul>
+        <h3>sb</h3>
+        <p><strong>Description:</strong> Toggle the scoreboard display on or off</p>
+        <p><strong>Usage:</strong> <code>/sb</code></p>
 
-<h3>playerwarp</h3>
-<p><strong>Description:</strong> Display PlayerWarp commands</p>
-<p><strong>Alias:</strong> pw</p>
-<p><strong>Usage:</strong> <code>/playerwarp</code></p>
+        <h3>veinminer</h3>
+        <p><strong>Description:</strong> Configure VeinMiner settings, which allow mining of ore veins</p>
+        <p><strong>Alias:</strong> vm</p>
+        <p><strong>Usage:</strong></p>
+        <ul>
+            <li><code>/veinminer mode</code></li>
+            <li><code>/veinminer pattern</code></li>
+            <li><code>/veinminer toggle</code></li>
+        </ul>
 
-<h3>discordsrv</h3>
-<p><strong>Description:</strong> Provide instructions to link your Minecraft and Discord accounts</p>
-<p><strong>Usage:</strong></p>
-<ul>
-    <li><code>/discordsrv help</code></li>
-    <li><code>/discordsrv link</code></li>
-</ul>
+        <h3>playerwarp</h3>
+        <p><strong>Description:</strong> Display PlayerWarp commands</p>
+        <p><strong>Alias:</strong> pw</p>
+        <p><strong>Usage:</strong> <code>/playerwarp</code></p>
 
-<h3>trash</h3>
-<p><strong>Description:</strong> Open a permanent item disposal GUI</p>
-<p><strong>Usage:</strong> <code>/trash</code></p>
+        <h3>discordsrv</h3>
+        <p><strong>Description:</strong> Provide instructions to link your Minecraft and Discord accounts</p>
+        <p><strong>Usage:</strong></p>
+        <ul>
+            <li><code>/discordsrv help</code></li>
+            <li><code>/discordsrv link</code></li>
+        </ul>
 
-<h2>Job and Quest Commands</h2>
+        <h3>trash</h3>
+        <p><strong>Description:</strong> Open a permanent item disposal GUI</p>
+        <p><strong>Usage:</strong> <code>/trash</code></p>
 
-<h3>jobs</h3>
-<p><strong>Description:</strong> Open the job GUI</p>
-<p><strong>Usage:</strong> <code>/jobs</code></p>
+        <h2>Job and Quest Commands</h2>
 
-<h3>quest</h3>
-<p><strong>Description:</strong> Opens the quest GUI</p>
-<p><strong>Usage:</strong> <code>/quest</code></p>
+        <h3>jobs</h3>
+        <p><strong>Description:</strong> Open the job GUI</p>
+        <p><strong>Usage:</strong> <code>/jobs</code></p>
 
-<h2>Claim Commands</h2>
+        <h3>quest</h3>
+        <p><strong>Description:</strong> Opens the quest GUI</p>
+        <p><strong>Usage:</strong> <code>/quest</code></p>
 
-<h3>claim</h3>
-<p><strong>Description:</strong> Open the claim management GUI to manage land claims and permissions</p>
-<p><strong>Usage:</strong> <code>/claim</code></p>
-<p><strong>Alias:</strong></p>
-<ul>
-    <li><code>/cl</code> - Open claim list</li>
-    <li><code>/subdivideclaims</code> - Create subdivisions within your claim</li>
-    <li><code>/extendclaim &lt;amount&gt;</code> - Expand your claim by a specified number of blocks</li>
-    <li><code>/givepet &lt;player_name&gt;</code> - Transfer ownership of your pet to another player</li>
-</ul>
+        <h2>Claim Commands</h2>
 
-<h2>Interaction Commands</h2>
+        <h3>claim</h3>
+        <p><strong>Description:</strong> Open the claim management GUI to manage land claims and permissions</p>
+        <p><strong>Usage:</strong> <code>/claim</code></p>
+        <p><strong>Alias:</strong></p>
+        <ul>
+            <li><code>/cl</code> - Open claim list</li>
+            <li><code>/subdivideclaims</code> - Create subdivisions within your claim</li>
+            <li><code>/extendclaim &lt;amount&gt;</code> - Expand your claim by a specified number of blocks</li>
+            <li><code>/givepet &lt;player_name&gt;</code> - Transfer ownership of your pet to another player</li>
+        </ul>
 
-<h3>team</h3>
-<p><strong>Description:</strong> Display a list of team-related commands</p>
-<p><strong>Usage:</strong> <code>/team</code></p>
+        <h2>Interaction Commands</h2>
 
-<h3>togglepvp</h3>
-<p><strong>Description:</strong> Toggle your PvP status on or off</p>
-<p><strong>Usage:</strong> <code>/togglepvp</code></p>
+        <h3>team</h3>
+        <p><strong>Description:</strong> Display a list of team-related commands</p>
+        <p><strong>Usage:</strong> <code>/team</code></p>
 
-<h3>killrecaps</h3>
-<p><strong>Description:</strong> Open the kill recap GUI</p>
-<p><strong>Usage:</strong> <code>/killrecaps</code></p>
+        <h3>togglepvp</h3>
+        <p><strong>Description:</strong> Toggle your PvP status on or off</p>
+        <p><strong>Usage:</strong> <code>/togglepvp</code></p>
 
-<h2>Movement Commands</h2>
+        <h3>killrecaps</h3>
+        <p><strong>Description:</strong> Open the kill recap GUI</p>
+        <p><strong>Usage:</strong> <code>/killrecaps</code></p>
 
-<h3>sit</h3>
-<p><strong>Description:</strong> Sit at your current position</p>
-<p><strong>Usage:</strong> <code>/sit</code></p>
-<p><strong>Alias:</strong></p>
-<ul>
-    <li><code>/sit &lt;toggle&gt;</code> - Sit on specific blocks</li>
-</ul>
+        <h2>Movement Commands</h2>
 
-<h3>lay</h3>
-<p><strong>Description:</strong> Lie down</p>
-<p><strong>Usage:</strong> <code>/lay</code></p>
+        <h3>sit</h3>
+        <p><strong>Description:</strong> Sit at your current position</p>
+        <p><strong>Usage:</strong> <code>/sit</code></p>
+        <p><strong>Alias:</strong></p>
+        <ul>
+            <li><code>/sit &lt;toggle&gt;</code> - Sit on specific blocks</li>
+        </ul>
 
-<h3>crawl</h3>
-<p><strong>Description:</strong> Crawl on the ground</p>
-<p><strong>Usage:</strong> <code>/crawl</code></p>
+        <h3>lay</h3>
+        <p><strong>Description:</strong> Lie down</p>
+        <p><strong>Usage:</strong> <code>/lay</code></p>
 
-<h3>bellyflop</h3>
-<p><strong>Description:</strong> Perform a belly flop</p>
-<p><strong>Usage:</strong> <code>/bellyflop</code></p>
+        <h3>crawl</h3>
+        <p><strong>Description:</strong> Crawl on the ground</p>
+        <p><strong>Usage:</strong> <code>/crawl</code></p>
 
-<h3>spin</h3>
-<p><strong>Description:</strong> Spin in place</p>
-<p><strong>Usage:</strong> <code>/spin</code></p>
+        <h3>bellyflop</h3>
+        <p><strong>Description:</strong> Perform a belly flop</p>
+        <p><strong>Usage:</strong> <code>/bellyflop</code></p>
+
+        <h3>spin</h3>
+        <p><strong>Description:</strong> Spin in place</p>
+        <p><strong>Usage:</strong> <code>/spin</code></p>
+
+        <hr>
+
+        <div class="footer">
+            <p>This wiki is maintained by the server staff. If you have any questions or need clarification on any commands, please contact a staff member through our <a href="https://discord.gg/caseoh">Discord server</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
